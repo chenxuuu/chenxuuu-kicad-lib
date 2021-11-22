@@ -1,5 +1,5 @@
 (footprint "ZJY154T-PG04(ST7789-240x240)" (version 20211014) (generator pcbnew) (layer "F.Cu")
-  (tedit 5F8696B1)
+  (tedit 618B9642)
   (attr smd)
   (fp_text reference "REF**" (at 0.06 -0.68) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
@@ -31,4 +31,9 @@
   (pad "10" smd rect (at -2.44 6.59 180) (size 0.35 3) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp f20d9c76-7aae-4283-b738-0368c5cc1636))
   (pad "11" smd rect (at -3.14 6.59 180) (size 0.35 3) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp a982ef01-cb13-479f-9db3-d7d86fa55b68))
   (pad "12" smd rect (at -3.84 6.59 180) (size 0.35 3) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 96bc3374-11f4-4b12-8984-ee91b59a6c97))
+  (model "D:/projects/git/chenxuuu-kicad-lib/3dmodels/chenxuuu.3dshapes/2.2inch TFT.STEP"
+    (offset (xyz 1.2 0 0))
+    (scale (xyz 0.57 0.84 0.6))
+    (rotate (xyz 0 0 0))
+  )
 )
