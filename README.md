@@ -8,11 +8,11 @@
 
 ### 符号库
 
-打开`符号编辑器`，点击菜单`偏好设置`--`管理封装库`，点击`文件夹图标`，选中仓库下的`symbols\chenxuuu_Library.kicad_sym`文件导入即可
+打开`符号编辑器`，点击菜单`文件`--`添加库`，选中仓库下的`symbols\chenxuuu_Library.kicad_sym`文件导入即可
 
 ### 封装库
 
-打开`封装编辑器`，点击菜单`偏好设置`--`管理封装库`，点击`文件夹图标`，选中仓库下的`footprints\chenxuuu_Module.pretty`文件夹导入即可
+打开`封装编辑器`，点击菜单`文件`--`添加库`，选中仓库下的`footprints\chenxuuu_Module.pretty`文件夹导入即可
 
 ### 3D模型
 
