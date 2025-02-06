@@ -218,4 +218,15 @@
 			(xyz -90 0 180)
 		)
 	)
+	(model "C:/Users/chenx/Desktop/git/chenxuuu-kicad-lib/3dmodels/chenxuuu.3dshapes/Micro SD Card.STEP"
+		(offset
+			(xyz 6 -13 2.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 90 0 180)
+		)
+	)
 )
