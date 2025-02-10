@@ -461,7 +461,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "029c0bbe-b11e-4b7e-b70a-45b7af1e4b6b")
 	)
-	(model "C:/Users/chenx/Desktop/git/chenxuuu-kicad-lib/3dmodels/chenxuuu.3dshapes/SIQ-02FVS3-1.STEP"
+	(model "${chenxuuu_3d}/3dmodels/chenxuuu.3dshapes/SIQ-02FVS3-1.STEP"
 		(offset
 			(xyz 0 2.5 0)
 		)

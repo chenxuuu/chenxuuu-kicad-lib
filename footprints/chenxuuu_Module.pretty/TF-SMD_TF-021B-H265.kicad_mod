@@ -207,7 +207,7 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "40655bfb-add1-4760-87a3-543727af627a")
 	)
-	(model "C:/Users/chenx/Desktop/git/chenxuuu-kicad-lib/3dmodels/chenxuuu.3dshapes/TF-021B.STEP"
+	(model "${chenxuuu_3d}/3dmodels/chenxuuu.3dshapes/TF-021B.STEP"
 		(offset
 			(xyz -0.1 -0.8 1)
 		)
@@ -218,7 +218,7 @@
 			(xyz -90 0 180)
 		)
 	)
-	(model "C:/Users/chenx/Desktop/git/chenxuuu-kicad-lib/3dmodels/chenxuuu.3dshapes/Micro SD Card.STEP"
+	(model "${chenxuuu_3d}/3dmodels/chenxuuu.3dshapes/Micro SD Card.STEP"
 		(offset
 			(xyz 6 -13 2.5)
 		)
