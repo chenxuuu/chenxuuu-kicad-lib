@@ -1,0 +1,233 @@
+(footprint "IBS-SMD_4P-L3.5-W2.0-P2.4-LS3.5-BL"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "IBS-SMD_4P-L3.5-W2.0-P2.4-LS3.5-BL footprint")
+	(property "Reference" "REF**"
+		(at 0 3.9558 0)
+		(layer "F.SilkS")
+		(uuid "552ec72f-ca2e-48f7-b1ab-83ed2900cc3f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "IBS-SMD_4P-L3.5-W2.0-P2.4-LS3.5-BL"
+		(at 0 3.9558 0)
+		(layer "F.Fab")
+		(uuid "2d60a4c3-df11-4674-b5f0-fa743b855d86")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3c13f157-275c-4a8a-8608-cd8dd930d92b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "67d31708-86df-4b73-8382-de096ffb5cb7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.78 -1)
+		(end -1.78 -1)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7d66b7a3-a881-4172-b7ea-8d46bd20adf6")
+	)
+	(fp_line
+		(start -1.78 -1)
+		(end -1.78 1)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7c75974e-4a2c-4a44-8006-039afa876235")
+	)
+	(fp_line
+		(start -1.78 1)
+		(end -1.78 1)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f966598b-5a70-46b4-a9e5-c578610d5b1a")
+	)
+	(fp_line
+		(start -1.4 -0.64)
+		(end -0.89 -0.64)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e098df20-9395-454b-ae17-b3d4432c22f7")
+	)
+	(fp_line
+		(start -0.63 1)
+		(end 0.62 1)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bf0bfe8c-f2b6-4d44-85f7-f1114cca18b6")
+	)
+	(fp_line
+		(start -0.62 -1)
+		(end 0.62 -1)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "fe9707ec-3ecb-490a-a36b-322cb4a49e5c")
+	)
+	(fp_line
+		(start 0.89 -0.64)
+		(end 1.4 -0.64)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "458d5001-c2fd-4e8f-a583-e21005123899")
+	)
+	(fp_line
+		(start 1.14 -0.89)
+		(end 1.14 -0.38)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "11eebc9a-71b1-414f-a723-7042491cc4ad")
+	)
+	(fp_line
+		(start 1.77 1)
+		(end 1.78 1)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "077f79b5-b399-4a06-95d4-9bcd77eb9c6b")
+	)
+	(fp_line
+		(start 1.78 -1)
+		(end 1.78 -1)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b9ce0319-11e9-4f1e-8bf3-d0218a6b2f36")
+	)
+	(fp_line
+		(start 1.78 -1)
+		(end 1.78 1)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ee22b9f2-0eae-47e4-9716-9eda725539ad")
+	)
+	(fp_rect
+		(start -1.75 -2)
+		(end 1.75 2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "a5e7d92e-1001-44a2-beb1-e5bd8a8eff3f")
+	)
+	(fp_circle
+		(center -1.68 1.68)
+		(end -1.65 1.68)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "Rescue")
+		(uuid "bba68f43-651e-4198-977b-05133251132f")
+	)
+	(fp_text user "REF**"
+		(at 0 5.9558 0)
+		(layer "F.Fab")
+		(uuid "2f87594e-794d-4f1a-b86e-2f3a78c4960a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.2 1.55)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "360fae15-87d6-4fd3-bb27-5797c350a7fe")
+	)
+	(pad "2" smd rect
+		(at 1.2 1.55)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "05506856-de91-4202-976b-c81a0fdb897b")
+	)
+	(pad "3" smd rect
+		(at 1.2 -1.55)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "30df0801-ef1e-4210-abbb-1f900a198935")
+	)
+	(pad "4" smd rect
+		(at -1.2 -1.55)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "7a9fbc37-e2cc-4f9f-ac9b-9e0c1ffe2f63")
+	)
+	(embedded_fonts no)
+	(model "${chenxuuu_3d}/3dmodels/chenxuuu.3dshapes/IBS-SMD_4P-L3.5-W2.0-P2.4-LS3.5-BL.wrl"
+		(offset
+			(xyz 0 0 0.77)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -180)
+		)
+	)
+)

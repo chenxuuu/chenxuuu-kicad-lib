@@ -1,0 +1,202 @@
+(footprint "RJ11-UP_FACE"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "立式 rj12端口")
+	(property "Reference" "REF**"
+		(at 3 -11.5 0)
+		(layer "F.SilkS")
+		(uuid "d941b17d-2c5f-4e2d-a0ab-39e90719fb6a")
+		(effects
+			(font
+				(size 1.143 1.143)
+				(thickness 0.152)
+			)
+			(justify left)
+		)
+	)
+	(property "Value" "RJ11立式"
+		(at 4.953 -13.843 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "13e9c975-1fbd-4eef-ae00-5d9243854fa2")
+		(effects
+			(font
+				(size 0.914 0.914)
+				(thickness 0.046)
+			)
+			(justify left)
+		)
+	)
+	(property "Datasheet" "https://detail.tmall.com/item.htm?id=673374891654&skuId=5019518067885"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4dd8bb1d-4c36-495b-8e2c-dc12902269fc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a07c73bd-9566-4f39-96a9-c47dec2dbe04")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.651 -10.16)
+		(end 11.811 -10.16)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a3185fcb-b986-4ea9-a6c0-cd2e3acaf508")
+	)
+	(fp_line
+		(start -1.651 -0.845)
+		(end -1.651 -10.16)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "9450e546-467c-490f-860f-49ad675a2b7f")
+	)
+	(fp_line
+		(start -1.651 6.858)
+		(end -1.651 0.845)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5e43b0b5-0b23-41f1-8d76-81ba2f3d26a2")
+	)
+	(fp_line
+		(start 11.811 -10.16)
+		(end 11.811 -0.846)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "15f19208-e6be-4c84-bf5c-c10b498a60ce")
+	)
+	(fp_line
+		(start 11.811 0.845)
+		(end 11.811 6.858)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f0ba12e0-c7fb-4929-96c6-0aee50b585a9")
+	)
+	(fp_line
+		(start 11.811 6.858)
+		(end -1.651 6.858)
+		(stroke
+			(width 0.254)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "bb1ce368-1fa2-4c90-9720-f769c3338ab0")
+	)
+	(fp_rect
+		(start -2 -10.5)
+		(end 12.25 7.25)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "bcf9e76a-e331-4882-a0ea-3319986f379a")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 3.25 3.25)
+		(drill 3.25)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "fc629683-c08c-423b-bad1-6c569e6288e9")
+	)
+	(pad "" np_thru_hole circle
+		(at 10.16 0)
+		(size 3.25 3.25)
+		(drill 3.25)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "f89ee1b7-4160-4a39-9d2a-1f47d737d78d")
+	)
+	(pad "1" thru_hole circle
+		(at 1.905 -8.89)
+		(size 1.5 1.5)
+		(drill 0.9)
+		(layers "*.Cu" "*.Paste" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ba793f1b-e6a6-46fb-8bc1-8c733cd31c9a")
+	)
+	(pad "2" thru_hole circle
+		(at 3.175 -6.35)
+		(size 1.5 1.5)
+		(drill 0.9)
+		(layers "*.Cu" "*.Paste" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "f7cc5a05-a399-4ec4-a8fd-d82574a1255e")
+	)
+	(pad "3" thru_hole circle
+		(at 4.445 -8.89)
+		(size 1.5 1.5)
+		(drill 0.9)
+		(layers "*.Cu" "*.Paste" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "25250301-c2a2-4661-bd0d-28efa6126091")
+	)
+	(pad "4" thru_hole circle
+		(at 5.715 -6.35)
+		(size 1.5 1.5)
+		(drill 0.9)
+		(layers "*.Cu" "*.Paste" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "445f7135-9317-472b-9188-1e71b0cc250b")
+	)
+	(pad "5" thru_hole circle
+		(at 6.985 -8.89)
+		(size 1.5 1.5)
+		(drill 0.9)
+		(layers "*.Cu" "*.Paste" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "52f39e87-1016-42f3-bd2d-92965892d61f")
+	)
+	(pad "6" thru_hole circle
+		(at 8.255 -6.35)
+		(size 1.5 1.5)
+		(drill 0.9)
+		(layers "*.Cu" "*.Paste" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "966385ce-4151-46a3-9e49-f909b0f65cc4")
+	)
+	(embedded_fonts no)
+	(model "${chenxuuu_3d}/3dmodels/chenxuuu.3dshapes/rj12_up.stp"
+		(offset
+			(xyz 5.1 1.5 16)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
