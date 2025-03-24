@@ -1,0 +1,232 @@
+(footprint "PWRM-TH_BXXXXS-2W"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "PWRM-TH_BXXXXS-2W footprint")
+	(property "Reference" "REF**"
+		(at 0 5.556 0)
+		(layer "F.SilkS")
+		(uuid "dd8e33d9-1f3a-4042-8456-483ff5afbcf6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "PWRM-TH_BXXXXS-2W"
+		(at 0 5.556 0)
+		(layer "F.Fab")
+		(uuid "521f1247-2192-4b7d-abfe-fde6b8386b9b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1f56b0a9-914a-48cf-8fa5-b613e89386d7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "694a79ae-514f-49a1-bf8a-7e5e1e59b66e")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -8.38 -1.02)
+		(end -6.84 -1.02)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "004f50f9-5068-4c9c-b382-df8030ffe777")
+	)
+	(fp_line
+		(start -8.38 6.1)
+		(end -8.38 -1.02)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ed8dd074-eadf-4552-899b-ecb23917018b")
+	)
+	(fp_line
+		(start -5.86 -1.02)
+		(end -4.3 -1.02)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b2f200a0-1769-4644-82a7-6ea175600e35")
+	)
+	(fp_line
+		(start -3.32 -1.02)
+		(end 0.78 -1.02)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e5962e69-d9fc-4dc7-a424-3ff740c08b43")
+	)
+	(fp_line
+		(start 1.76 -1.02)
+		(end 5.86 -1.02)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "08c621fa-d66b-45a0-af49-afc9ba1ff7d4")
+	)
+	(fp_line
+		(start 6.84 -1.02)
+		(end 10.92 -1.02)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e6542574-df29-4ded-aa25-f2b6c9b36aa0")
+	)
+	(fp_line
+		(start 10.92 -1.02)
+		(end 11.3 -1.02)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b469e2db-74fa-469d-9b9c-ce60388dbeee")
+	)
+	(fp_line
+		(start 11.3 -1.02)
+		(end 11.3 6.1)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5546471b-f5d8-4efa-b5e9-b66d415037a9")
+	)
+	(fp_line
+		(start 11.3 6.1)
+		(end -8.38 6.1)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a0ec0e9c-3183-4146-bea9-751ac2ff3202")
+	)
+	(fp_circle
+		(center -7.73 -0.21)
+		(end -7.53 -0.21)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "c2de9b9c-24c5-462c-aba0-a9773369a096")
+	)
+	(fp_circle
+		(center -7.59 0.01)
+		(end -7.39 0.01)
+		(stroke
+			(width 0.4)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "32549e15-2552-4997-8669-e6ccf0c850aa")
+	)
+	(fp_circle
+		(center -8.35 6.02)
+		(end -8.32 6.02)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "Rescue")
+		(uuid "63032f62-a85d-43e8-8244-bdfeed60bf4c")
+	)
+	(fp_text user "REF**"
+		(at 0 7.556 0)
+		(layer "F.Fab")
+		(uuid "09aa2839-151a-4091-8f0a-20b3bd20a2db")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -6.35 0)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b105771a-e13f-4d4b-8cb2-b09a6106448f")
+	)
+	(pad "2" thru_hole circle
+		(at -3.81 0)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c3bb3ce3-5848-4a49-b77b-aaeeaede0a5b")
+	)
+	(pad "4" thru_hole circle
+		(at 1.27 0)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "62c0fd47-2754-48d7-b9de-f44b01b4521b")
+	)
+	(pad "6" thru_hole circle
+		(at 6.35 0)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4af6e431-599a-47ea-9669-b40ccaa878ab")
+	)
+	(embedded_fonts no)
+	(model "${chenxuuu_3d}/3dmodels/chenxuuu.3dshapes/PWRM-TH_BXXXXS-2W.wrl"
+		(offset
+			(xyz 1.5 -2.5 19.1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
+)
