@@ -183,8 +183,8 @@
 		(layer "Rescue")
 		(uuid "bba68f43-651e-4198-977b-05133251132f")
 	)
-	(fp_text user "REF**"
-		(at 0 5.9558 0)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
 		(layer "F.Fab")
 		(uuid "2f87594e-794d-4f1a-b86e-2f3a78c4960a")
 		(effects

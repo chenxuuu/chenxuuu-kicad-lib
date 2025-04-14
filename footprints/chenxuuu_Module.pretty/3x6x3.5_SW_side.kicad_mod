@@ -1,7 +1,7 @@
 (footprint "3x6x3.5_SW_side"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
 		(at 0 0.75 180)
@@ -14,7 +14,7 @@
 			)
 		)
 	)
-	(property "Value" "KEY"
+	(property "Value" "3x6x3.5_SW_side"
 		(at 0 -0.75 180)
 		(layer "F.Fab")
 		(uuid "80b5c532-9cd8-4af6-938d-66bb2c47d67b")
@@ -22,18 +22,6 @@
 			(font
 				(size 0.8 0.8)
 				(thickness 0.1)
-			)
-		)
-	)
-	(property "Footprint" ""
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "12bf31c2-8624-4483-9a9c-b0e23bd33332")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -873,7 +861,7 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "d41a41b9-f494-4f44-8980-44fa92c8bbbc")
 	)
@@ -884,9 +872,22 @@
 			(width 0.1)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.Fab")
 		(uuid "1005d24f-3895-4aca-9a0d-099bfb6e115c")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -4.75 -0.25 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "4334e213-f213-4307-847f-15fbbe3ea403")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
 	)
 	(pad "" np_thru_hole circle
 		(at -1.15 0)
@@ -905,27 +906,28 @@
 	(pad "1" smd rect
 		(at -2.1 1.5)
 		(size 0.9 0.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "27b78803-11b1-48f2-854e-5a157f156e54")
 	)
 	(pad "2" smd rect
 		(at 2.1 1.5)
 		(size 0.9 0.9)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "de616bcc-7114-4d36-ad39-135056e002c0")
 	)
 	(pad "3" smd rect
 		(at -3.8 -0.6 90)
 		(size 1 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "07dec021-3cfc-43cf-a69a-ee89baed0764")
 	)
 	(pad "3" smd rect
 		(at 3.8 -0.6 90)
 		(size 1 0.5)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "5b5e95a7-83d0-492c-93c7-b4ecc08b0f53")
 	)
+	(embedded_fonts no)
 	(model "${chenxuuu_3d}/3dmodels/chenxuuu.3dshapes/SMT-momentary microswitch, 2-pin tactile push button, 3x6x3.5mm, 3x6x3.5mm - Part 1.step"
 		(offset
 			(xyz 4 -1.5 0)

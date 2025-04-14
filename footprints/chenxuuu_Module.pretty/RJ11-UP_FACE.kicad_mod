@@ -125,6 +125,19 @@
 		(layer "F.CrtYd")
 		(uuid "bcf9e76a-e331-4882-a0ea-3319986f379a")
 	)
+	(fp_text user "${REFERENCE}"
+		(at -0.25 -3 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "06684dd5-c6ce-46e5-9ab7-1f1858b5cf0c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(pad "" np_thru_hole circle
 		(at 0 0)
 		(size 3.25 3.25)
