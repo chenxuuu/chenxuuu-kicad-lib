@@ -212,4 +212,16 @@
 			(xyz -0 -0 -0)
 		)
 	)
+	(model "${chenxuuu_3d}/3dmodels/chenxuuu.3dshapes/RJ45-TH_RRCH-5201-6P6C.wrl"
+		(hide yes)
+		(offset
+			(xyz 5 1.75 11.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 -0)
+		)
+	)
 )
